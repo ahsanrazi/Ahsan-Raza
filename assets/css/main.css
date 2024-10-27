@@ -32,7 +32,19 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.intro-text {
+	text-align: center; /* Center-aligns the text */
+	max-width: 800px; /* Limits the width of the text block */
+	margin: 0 auto; /* Centers the block horizontally */
+	padding: 20px; /* Adds padding for spacing */
+	background-color: white; /* Light background color for contrast */
+	border-radius: 5px; /* Rounded corners */
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
 
+.intro-text p {
+	line-height: 1.6; /* Increases line spacing for readability */
+}
 ol, ul {
 	list-style: none;
 }
