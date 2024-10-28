@@ -34,13 +34,38 @@ body {
 }
 .intro-text {
 	text-align: center; /* Center-aligns the text */
+	color: #5f1717;
 	max-width: 800px; /* Limits the width of the text block */
 	margin: 0 auto; /* Centers the block horizontally */
 	padding: 20px; /* Adds padding for spacing */
 	background-color: white; /* Light background color for contrast */
-	border-radius: 5px; /* Rounded corners */
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+	border-radius: 5px; 
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
 }
+/* Reduce padding for "My Projects" section */
+#Projects.wrapper.style1 {
+    padding-top: 70px;
+	
+}
+.heading{
+	padding-bottom: 5px;
+}
+#Projects h2 {
+    color: #5f1717 !important;
+}
+
+#contact.wrapper.style4 {
+    padding-top: 70px;
+	padding-bottom: 100px;
+	
+}
+/* Change all nav links to white on hover */
+#nav ul li a:hover {
+    color: #5f1717 !important; /* Text color */
+    background-color: white !important; /* Background color */
+    border-radius: 5px; /* Optional: add rounded corners */
+}
+
 
 .intro-text p {
 	line-height: 1.6; /* Increases line spacing for readability */
@@ -162,7 +187,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #5f1717;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1816,10 +1841,10 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					background-color: #5f1717;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
+					color: white !important;
 					display: block;
 					font-size: 26px;
 					height: 48px;
